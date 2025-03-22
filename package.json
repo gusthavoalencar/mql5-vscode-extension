@@ -15,6 +15,11 @@
   "categories": [
     "Programming Languages"
   ],
+  "files": [
+    "syntaxes",
+    "language-configuration.json",
+    "package.json"
+  ],
   "contributes": {
     "languages": [
       {
@@ -38,7 +43,6 @@
       }
     ]
   },
-  "icon": "icon.png",
   "keywords": [
     "mql5",
     "metatrader",
