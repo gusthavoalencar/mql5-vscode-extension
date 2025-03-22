@@ -1,0 +1,28 @@
+{
+    "name": "mql5-custom-syntax",
+    "displayName": "MQL5 Custom Syntax",
+    "description": "Custom syntax highlighting for MQL5",
+    "version": "0.1.0",
+    "publisher": "yourname",
+    "engines": {
+        "vscode": "^1.75.0"
+    },
+    "categories": ["Programming Languages"],
+    "contributes": {
+        "languages": [
+            {
+                "id": "mql5",
+                "aliases": ["MQL5", "mql5"],
+                "extensions": [".mq5", ".mqh"],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "mql5",
+                "scopeName": "source.mql5",
+                "path": "./syntaxes/mql5.tmLanguage.json"
+            }
+        ]
+    }
+}
